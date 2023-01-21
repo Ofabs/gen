@@ -1,0 +1,82 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+li{
+    display: inline-block;
+    padding: 5px;
+    
+}
+li > a {
+    text-decoration: none;
+}
+
+#anemo{
+    background-image: url('mond.jpg');
+    background-repeat: no-repeat;
+    background-position: center unset;
+    background-size: cover;
+    
+
+      
+}
+#geo {
+    background-image: url('lyue.jpg');
+    background-repeat: no-repeat;
+    background-position: center unset;
+    background-size: cover;
+
+}
+#electro {
+    background-image: url('inazuma.jpg');
+    background-repeat: no-repeat;
+    background-position: center unset;
+    background-size: cover;
+
+    
+}
+
+
+img{
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    padding-right: 50px;
+    
+}
+.tt1 img:hover{
+    transform: translate(-3px, -3px);
+    transition: 1s, 1s;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.578);
+}
+
+
+
+
+
+
+
+
+
+footer{
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    
+}
