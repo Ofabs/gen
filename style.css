@@ -60,7 +60,7 @@ img{
 .tt1 img:hover{
     transform: translate(-15px, 0px);
     transition: 1s, 1s;
-    box-shadow: 0px 15px 80px rgba(0, 0, 0, 0.785);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.568);
 }
 
 
